@@ -1,0 +1,36 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+#bottom_of_page {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#bottom_of_page a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#bottom_of_page p {
+    color: whitesmoke;
+}
+
+.card-img-top {
+    margin-top: 2%;
+    height: 200px;
+}
+
+.sizebutton-btn {
+    width: 80%;
+}
